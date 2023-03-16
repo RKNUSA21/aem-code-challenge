@@ -33,6 +33,10 @@
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/select"
                                                 fieldLabel="Countries"
                                                 name="./countries"/>
+                                                <datasource
+                                                	jcr:primaryType="nt:unstructured"
+													sling:resourceType="/bin/countyDropdown"
+													jsonDataPath="/content/dam/anf-code-challenge/exercise-1/countries.json"/>
                                         </items>
                                     </column>
                                 </items>
